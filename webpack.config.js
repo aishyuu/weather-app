@@ -6,9 +6,9 @@ module.exports = {
     apiCalls: './src/apiCalls.js',
     
   },
-  mode: 'development',
+  mode: 'production',
   output: {
-    filename: 'main.js',
+    filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
   },
   module: {
