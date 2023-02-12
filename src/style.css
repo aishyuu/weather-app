@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content {
+    height: 100vh;
+    background-color: #2E4057;
+}
+
+.inputContainer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 250px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.weatherInput {
+    background-color: #2E4057;
+    border: 0;
+    border-bottom: 1px solid #2F2D2E;
+    color: rgb(192, 192, 192);
+}
+
+.weatherInput:focus {
+    outline: none;
+}
+
+.weatherSubmit {
+    width: 100px;
+    margin: 0 auto;
+    background-color: #F18F01;
+    border: 0;
+    color: white;
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+.weatherSubmit:hover {
+    background-color: #ca7900;
+}
+
+.weatherContent {
+    padding: 20px;
+    color: white;
+}
+
+.dataContainer {
+    display: flex;
+    gap: 20px;
+}
+
+.locationName {
+    font-size: 2rem;
+    padding-bottom: 15px;
+}
+
+.dataSpecifications {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid white;
+    padding: 10px;
+}
+
+.temp {
+    font-size: 5rem;
+}
